@@ -1,6 +1,6 @@
-# PostCSS media query gap [![Build Status][ci-img]][ci]
+# PostCSS media query gap [![Build Status](https://travis-ci.org/niksy/postcss-media-query-gap.svg)](https://travis-ci.org/niksy/postcss-media-query-gap)
 
-[PostCSS] plugin for applying gap on max-width/height media queries.
+[PostCSS](https://github.com/postcss/postcss) plugin for applying gap on max-width/height media queries.
 
 Useful when you want to [prevent double breakpoints](http://tzi.fr/css/prevent-double-breakpoint).
 
