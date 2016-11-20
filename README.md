@@ -1,8 +1,27 @@
-# PostCSS media query gap [![Build Status](https://travis-ci.org/niksy/postcss-media-query-gap.svg)](https://travis-ci.org/niksy/postcss-media-query-gap)
+# postcss-media-query-gap
 
-[PostCSS](https://github.com/postcss/postcss) plugin for applying gap on max-width/height media queries.
+[![Build Status][ci-img]][ci]
+
+[PostCSS][postcss] plugin for applying gap on max-width/height media queries.
 
 Useful when you want to [prevent double breakpoints](http://tzi.fr/css/prevent-double-breakpoint).
+
+## Install
+
+```sh
+npm install postcss-media-query-gap --save
+```
+
+## Usage
+
+```js
+const postcss = require('postcss');
+const mediaQueryGap = require('postcss-media-query-gap');
+
+postcss([
+	mediaQueryGap({ /* options */ })
+]);
+```
 
 ```css
 /* Before */
@@ -22,18 +41,10 @@ Useful when you want to [prevent double breakpoints](http://tzi.fr/css/prevent-d
 }
 ```
 
-## Installation
-
-```sh
-npm install postcss-media-query-gap --save-dev
-```
-
-## Usage
-
-```js
-postcss([ require('postcss-media-query-gap')({ /* options */ }) ])
-```
-
 ## License
 
 MIT © [Ivan Nikolić](http://ivannikolic.com)
+
+[ci]: https://travis-ci.org/niksy/postcss-media-query-gap
+[ci-img]: https://img.shields.io/travis/niksy/postcss-media-query-gap.svg
+[postcss]: https://github.com/postcss/postcss
