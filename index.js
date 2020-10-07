@@ -1,14 +1,12 @@
-'use strict';
+import mediaQueryGap from 'media-query-gap';
 
-const postcss = require('postcss');
-const mediaQueryGap = require('media-query-gap');
-
-module.exports = postcss.plugin('postcss-media-query-gap', () => {
-	return ( css ) => {
-		css.walkAtRules(( rule ) => {
-			if ( rule.name === 'media' ) {
+export default () => {
+	return {
+		postcssPlugin: 'postcss-media-query-gap',
+		AtRule: {
+			media: (rule) => {
 				rule.params = mediaQueryGap(rule.params);
 			}
-		});
+		}
 	};
-});
+};

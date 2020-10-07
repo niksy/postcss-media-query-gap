@@ -10,7 +10,7 @@ Useful when you want to
 ## Install
 
 ```sh
-npm install postcss-media-query-gap --save
+npm install postcss postcss-media-query-gap --save
 ```
 
 ## Usage
