@@ -16,8 +16,8 @@ npm install postcss postcss-media-query-gap --save
 ## Usage
 
 ```js
-const postcss = require('postcss');
-const mediaQueryGap = require('postcss-media-query-gap');
+import postcss from 'postcss';
+import mediaQueryGap from 'postcss-media-query-gap';
 
 postcss([
 	mediaQueryGap({
