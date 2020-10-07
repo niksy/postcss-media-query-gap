@@ -4,7 +4,8 @@
 
 [PostCSS][postcss] plugin for applying gap on max-width/height media queries.
 
-Useful when you want to [prevent double breakpoints](http://tzi.fr/css/prevent-double-breakpoint).
+Useful when you want to
+[prevent double breakpoints](http://tzi.fr/css/prevent-double-breakpoint).
 
 ## Install
 
@@ -19,24 +20,26 @@ const postcss = require('postcss');
 const mediaQueryGap = require('postcss-media-query-gap');
 
 postcss([
-	mediaQueryGap({ /* options */ })
+	mediaQueryGap({
+		/* options */
+	})
 ]);
 ```
 
 ```css
 /* Before */
 
-@media screen and (min-width:600px) and (max-width:739px) {
+@media screen and (min-width: 600px) and (max-width: 739px) {
 	.foo {
-		color:red;
+		color: red;
 	}
 }
 
 /* After */
 
-@media screen and (min-width:600px) and (max-width:738px) {
+@media screen and (min-width: 600px) and (max-width: 738px) {
 	.foo {
-		color:red;
+		color: red;
 	}
 }
 ```
@@ -45,6 +48,9 @@ postcss([
 
 MIT © [Ivan Nikolić](http://ivannikolic.com)
 
-[ci]: https://travis-ci.org/niksy/postcss-media-query-gap
-[ci-img]: https://img.shields.io/travis/niksy/postcss-media-query-gap.svg
-[postcss]: https://github.com/postcss/postcss
+<!-- prettier-ignore-start -->
+
+[ci]: https://travis-ci.com/niksy/postcss-media-query-gap
+[ci-img]: https://travis-ci.com/niksy/postcss-media-query-gap.svg?branch=master
+
+<!-- prettier-ignore-end -->
