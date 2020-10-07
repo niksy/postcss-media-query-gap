@@ -52,5 +52,6 @@ MIT © [Ivan Nikolić](http://ivannikolic.com)
 
 [ci]: https://travis-ci.com/niksy/postcss-media-query-gap
 [ci-img]: https://travis-ci.com/niksy/postcss-media-query-gap.svg?branch=master
+[postcss]: https://github.com/postcss/postcss
 
 <!-- prettier-ignore-end -->
