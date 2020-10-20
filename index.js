@@ -1,6 +1,6 @@
 import mediaQueryGap from 'media-query-gap';
 
-export default () => {
+const plugin = () => {
 	return {
 		postcssPlugin: 'postcss-media-query-gap',
 		AtRule: {
@@ -10,3 +10,6 @@ export default () => {
 		}
 	};
 };
+plugin.postcss = true;
+
+export default plugin;
