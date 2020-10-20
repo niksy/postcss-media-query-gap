@@ -2,6 +2,8 @@
 
 ## [Unreleased][]
 
+## [4.0.0][] - 2020-10-20
+
 ### Changed
 
 -   Properly export plugin function
@@ -16,3 +18,6 @@
 [unreleased]:
 	https://github.com/niksy/postcss-media-query-gap/compare/v3.0.0...HEAD
 [3.0.0]: https://github.com/niksy/postcss-media-query-gap/tree/v3.0.0
+[unreleased]:
+	https://github.com/niksy/postcss-media-query-gap/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/niksy/postcss-media-query-gap/tree/v4.0.0
