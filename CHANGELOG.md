@@ -2,6 +2,8 @@
 
 ## [Unreleased][]
 
+## [4.1.0][] - 2020-10-21
+
 ### Changed
 
 -   Upgrade media-query-gap (Closes #2)
@@ -25,3 +27,6 @@
 [unreleased]:
 	https://github.com/niksy/postcss-media-query-gap/compare/v4.0.0...HEAD
 [4.0.0]: https://github.com/niksy/postcss-media-query-gap/tree/v4.0.0
+[unreleased]:
+	https://github.com/niksy/postcss-media-query-gap/compare/v4.1.0...HEAD
+[4.1.0]: https://github.com/niksy/postcss-media-query-gap/tree/v4.1.0

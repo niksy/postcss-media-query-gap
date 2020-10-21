@@ -1,6 +1,6 @@
 {
   "name": "postcss-media-query-gap",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "PostCSS plugin for applying gap on max-width/height media queries.",
   "main": "index.cjs.js",
   "module": "index.esm.js",
