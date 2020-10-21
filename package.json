@@ -28,7 +28,7 @@
     "version": "version-changelog CHANGELOG.md && changelog-verify CHANGELOG.md && git add CHANGELOG.md"
   },
   "dependencies": {
-    "media-query-gap": "^1.0.0"
+    "media-query-gap": "^2.0.0"
   },
   "devDependencies": {
     "changelog-verify": "^1.1.2",

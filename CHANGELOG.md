@@ -2,6 +2,10 @@
 
 ## [Unreleased][]
 
+### Changed
+
+-   Upgrade media-query-gap (Closes #2)
+
 ## [4.0.0][] - 2020-10-20
 
 ### Changed
