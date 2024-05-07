@@ -1,11 +1,16 @@
 import mediaQueryGap from 'media-query-gap';
 
+const processed = Symbol('processed');
+
 const plugin = () => {
 	return {
 		postcssPlugin: 'postcss-media-query-gap',
 		AtRule: {
 			media: (rule) => {
-				rule.params = mediaQueryGap(rule.params);
+				if (!rule[processed]) {
+					rule.params = mediaQueryGap(rule.params);
+					rule[processed] = true;
+				}
 			}
 		}
 	};
